@@ -127,3 +127,34 @@ footer ul li a:hover {
       padding: 15px;
   }
 }
+
+/* Estilo para o tema escuro */
+body.dark-theme {
+  background-color: #333;
+  color: #f4f4f4;
+}
+
+header.dark-theme,
+footer.dark-theme {
+  background-color: #444;
+}
+
+/* Botão de tema */
+#theme-toggle {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #f4f4f4;
+  color: #333;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#theme-toggle:hover {
+  background-color: #ddd;
+}
+
+body.dark-theme #theme-toggle {
+  background-color: #555;
+  color: #f4f4f4;
+}
